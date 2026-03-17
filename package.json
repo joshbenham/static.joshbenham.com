@@ -2,8 +2,8 @@
   "name": "static.joshbenham.com",
   "private": true,
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./public/assets/app.css --minify",
-    "watch": "tailwindcss -i ./src/input.css -o ./public/assets/app.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ./public/app.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/app.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
